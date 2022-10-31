@@ -1,5 +1,5 @@
 import React from "react";
-
+import Piechart from "./Piechart";
 function Tokenallocation() {
   return (
     <div className="tokenallocation">
@@ -33,15 +33,17 @@ function Tokenallocation() {
             </div>
           </div>
         </div>
-        <div className="row mt-5">
-            <div className="col-md-6">
-
-            </div>
-            <div className="col-md-6 mt-5">
-                <img  className="img-fluid" src="Assests/app.png" alt="" />
-
-            </div>
-
+       
+      </div>
+      <div className="container ta-bg">
+      <div className="row mt-5">
+          <div className="col-md-6 mt-4">
+          
+          <Piechart/>
+          </div>
+          <div className="col-md-6 mt-5">
+            <img className="img-fluid" src="Assests/app.png" alt="" />
+          </div>
         </div>
       </div>
     </div>

@@ -2,7 +2,10 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero position-relative">
+      <div className="h-img position-absolute">
+        <img className="img-fluid" src="Assests/octa-bg.png" alt="" />
+      </div>
       <div className="container bg">
         <div className="row">
           <div className="col-md-6">
